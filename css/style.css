@@ -260,7 +260,7 @@ h3 {
 }
 @media (min-width: 48.125rem) {
   .main-heading {
-    background-image: url(/starter-code/assets/images/bg-pattern-1.svg), url(/starter-code/assets/images/bg-pattern-2.svg);
+    background-image: url(/assets/images/bg-pattern-1.svg), url(/assets/images/bg-pattern-2.svg);
     background-repeat: no-repeat no-repeat;
     background-position: top left -12.5em, bottom 6.25em right -6.25em;
     padding-bottom: 10rem;
@@ -426,7 +426,7 @@ h3 {
 @media (min-width: 48.125rem) {
   .founder .founder-info {
     padding: 3rem 3.5rem;
-    background-image: url(/starter-code/assets/images/bg-pattern-3.svg);
+    background-image: url(/assets/images/bg-pattern-3.svg);
     background-repeat: no-repeat;
     background-position: bottom -5rem right;
     text-align: left;
@@ -468,17 +468,17 @@ footer .socials {
 }
 
 .icon-facebook {
-  background-image: url(/starter-code/assets/images/icon-facebook.svg);
+  background-image: url(/assets/images/icon-facebook.svg);
 }
 
 .icon-twitter {
-  background-image: url(/starter-code/assets/images/icon-twitter.svg);
+  background-image: url(/assets/images/icon-twitter.svg);
   width: 20px;
   height: 16.25px;
 }
 
 .icon-instagram {
-  background-image: url(/starter-code/assets/images/icon-instagram.svg);
+  background-image: url(/assets/images/icon-instagram.svg);
 }
 
 .icon:hover {
