@@ -1,0 +1,93 @@
+@use "variables" as *;
+@use "breakpoints" as *;
+@use "functions" as *;
+
+h1,
+h2,
+.h2,
+h3 {
+  font-family: $ff-fraunces;
+  font-weight: 600;
+}
+
+.page-title {
+  font-size: rem(50);
+
+  @include breakpoint(medium) {
+    font-size: rem(60);
+  }
+
+  @include breakpoint(large) {
+    font-size: rem(80);
+  }
+
+  em {
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-color: $Eucaptyptus;
+    text-decoration-thickness: 3px;
+  }
+}
+
+.feature-number {
+  display: inline-block;
+  font-size: rem(20);
+  line-height: 1.6;
+  padding: 0.25em 0.8em;
+  border: 1px solid $Davys_Grey;
+  border-radius: 50%;
+
+  @include breakpoint(large) {
+    font-size: rem(24);
+  }
+}
+
+.section-title {
+  font-size: rem(28);
+
+  @include breakpoint(large) {
+    font-size: rem(32);
+  }
+}
+
+.founder-title {
+  font-size: rem(32);
+
+  @include breakpoint(medium) {
+    font-size: rem(48);
+  }
+
+  @include breakpoint(large) {
+    font-size: rem(56);
+  }
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.8;
+  letter-spacing: -0.18px;
+}
+
+.btn-primary {
+  background-color: $Eucaptyptus;
+  color: $dark-purple;
+  padding: 0.8em 1.8em;
+  border: 2px solid $Eucaptyptus;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: transparent;
+  color: $Eucaptyptus;
+}
+
+.btn-secondary {
+  color: $White;
+  border-bottom: 3px solid $Eucaptyptus;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: $Eucaptyptus;
+}
