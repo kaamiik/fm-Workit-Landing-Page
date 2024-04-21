@@ -41,7 +41,6 @@ body {
   font-size: 1rem;
   font-weight: 400;
   text-align: center;
-  overflow-x: hidden;
 }
 @media (min-width: 75rem) {
   body {
@@ -232,6 +231,10 @@ h3 {
   }
 }
 
+main {
+  overflow: hidden;
+}
+
 /* Main Components */
 .main-heading {
   position: relative;
@@ -246,13 +249,12 @@ h3 {
   content: "";
   position: absolute;
   bottom: -60px;
-  left: -20px;
-  right: -20px;
+  left: -5%;
+  right: 0;
   display: block;
   width: 110%;
   height: 120px;
   border-radius: 50%;
-  margin: 0 auto;
   background-color: #24053e;
 }
 .main-heading .page-title {
@@ -343,13 +345,12 @@ h3 {
   content: "";
   position: absolute;
   bottom: -60px;
-  left: -20px;
-  right: -20px;
+  left: -5%;
+  right: 0;
   display: block;
   width: 110%;
   height: 120px;
   border-radius: 50%;
-  margin: 0 auto;
   background-color: #fcf8ff;
 }
 

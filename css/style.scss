@@ -23,26 +23,26 @@
     padding: rem(57) rem(165);
   }
 }
-
+main {
+  overflow: hidden;
+}
 /* Main Components */
 .main-heading {
   position: relative;
   padding: rem(64) rem(16);
   padding-bottom: rem(120);
   @include flow-content(rem(40));
-
   /* Curve line at the botton of the section */
   &::after {
     content: "";
     position: absolute;
     bottom: -60px;
-    left: -20px;
-    right: -20px;
+    left: -5%;
+    right: 0;
     display: block;
     width: 110%;
     height: 120px;
     border-radius: 50%;
-    margin: 0 auto;
     background-color: $dark-purple;
   }
 
@@ -119,13 +119,12 @@
     content: "";
     position: absolute;
     bottom: -60px;
-    left: -20px;
-    right: -20px;
+    left: -5%;
+    right: 0;
     display: block;
     width: 110%;
     height: 120px;
     border-radius: 50%;
-    margin: 0 auto;
     background-color: $Ghost-White;
   }
 }
