@@ -30,15 +30,23 @@ h3 {
 }
 
 .feature-number {
+  width: rem(48);
+  height: rem(46);
+  padding-top: rem(6);
   display: inline-block;
   font-size: rem(20);
   line-height: 1.6;
-  padding: 0.25em 0.8em;
   border: 1px solid $Davys_Grey;
   border-radius: 50%;
 
   @include breakpoint(large) {
     font-size: rem(24);
+  }
+
+  @include breakpoint(large) {
+    width: rem(56);
+    height: rem(56);
+    padding-top: rem(8);
   }
 }
 

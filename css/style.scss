@@ -221,14 +221,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.75rem;
+    gap: 2.5rem;
   }
 }
 
 .icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: rem(30);
+  height: rem(30);
   background-size: cover;
 }
 
@@ -238,8 +238,8 @@ footer {
 
 .icon-twitter {
   background-image: url(/assets/images/icon-twitter.svg);
-  width: 20px;
-  height: 16.25px;
+  width: rem(30);
+  height: rem(26);
 }
 
 .icon-instagram {
